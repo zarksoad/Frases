@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: beige;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: aqua;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    color: white;
+}
+
+.caja{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #000 ;
+}
+
+.contenedor{
+    margin: auto;
+    width: 80%;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+.contenedor .frases-motivacionales{
+    grid-column: 1/4;
+
+}
+.contenedor .primera{
+    grid-column: 1/4;
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    line-height:30px ;
+    justify-content: center;
+}
+
+.contenedor .primera .caja1{
+    background-image: linear-gradient(blue,red);
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.contenedor .primera .caja1 .uno{
+    background-image: linear-gradient(blue,red);
+    transition: all 0.5s ease;
+    justify-content: flex-end;
+    
+
+
+
+}
+
+.contenedor .primera .caja1 .dos{
+    background-image: linear-gradient(blue,red);
+    transition: all 0.5s ease;
+
+
+
+
+}
+.contenedor .primera .caja1:hover{
+    background-image: linear-gradient(rgb(216, 227, 50),rgb(43, 212, 43),red);
+    font-weight: bold;
+    color: #000;
+
+}
+
+
+
+.contenedor .frases_de_disciplina{
+    grid-column: 1/-1;
+
+}
+
+.contenedor .segunda{
+    grid-column: 1/4;
+    display: flex;
+    text-align: center;
+    line-height:30px ;
+    gap: 10px;
+    justify-content: center;
+}
+
+.contenedor .segunda .caja2{
+    background-image: linear-gradient(rgb(122, 159, 155),rgb(227, 151, 151),blueviolet);
+
+}
+.contenedor .segunda .caja2:hover{
+    background-image: linear-gradient(rgb(216, 227, 50),rgb(43, 212, 43),red);
+    font-weight: bold;
+    color: #000;
+
+}
+
+.contenedor .filosofia{
+    grid-column: 1/-1;
+
+}
+.contenedor .tercera{
+    grid-column: 1/4;
+    display: flex;
+    text-align: center;
+    line-height:30px ;
+    gap: 10px;
+    justify-content: center;
+}
+
+.contenedor .tercera .caja3{
+    background-image: linear-gradient(rgb(216, 227, 50),rgb(43, 212, 43),red);
+
+}
+
+.contenedor .tercera .caja3:hover{
+    background-image: linear-gradient(rgb(226, 38, 24),rgb(21, 216, 21),rgb(204, 125, 125));
+    font-weight: bold;
+    color: #000;
+
+}
+
+footer{
+    text-align: center;
+    
+}
+
+
+
+
